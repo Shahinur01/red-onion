@@ -1,5 +1,5 @@
-.menuBar img{
-    width: 150px;
+.menuBar .logo img{
+    width: 250px ;
     padding: 20px 50px;
 }
 .menuBar{
@@ -19,8 +19,10 @@
 }
 .login{
     padding:10px 30px;
+    font-weight: 700;
     border-radius: 25px;
     margin-right: 10px;
+    color: black;
 }
 .login:hover{
     background: red;
@@ -33,4 +35,8 @@
     padding:10px 25px ;
     border-radius: 25px;
     color: white ;
+    font-weight: 700;
+}
+.signUp:hover{
+    color: white;
 }

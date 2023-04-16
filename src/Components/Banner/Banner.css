@@ -1,22 +1,10 @@
-/* .banner{
-    background-image: url("https://i.ibb.co/fnvscQr/bannerbackground.png");
-    width: 2000px;
-    height: 500px;
-    position: absolute;
-    left: -95px;
-} */
 .banner{
-    background-image: url("https://i.ibb.co/fnvscQr/bannerbackground.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100wh;
-    height: 500px;
+    position: relative;
 }
-/* .banner img{
+.banner img{
     width: 100%;
-    position: absolute;
     background-size: cover;
-} */
+}
 .banner-section{
     position: absolute;
     top: 150px;
@@ -32,24 +20,24 @@
     padding-bottom: 20px;
     position: relative;
 }
-.searchFood{
-    /* width: 100%; */
-    padding:15px 200px 15px 20px;
-    border-radius: 20px;
-    border: none;
-
-}
-.banner-section button{
+.banner-section button {
     position: relative;
-    left: -50px;
+    left: -52px;
+    font-size: 20px;
     padding: 14px 30px;
-    border-radius: 20px;
+    border-radius: 27px;
     background: red;
     color: #fff;
     border: none;
+}
+.searchFood{
+    padding:13px 200px 13px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
 
 }
-.banner-section button:hover{
-    border:none;
+.searchFood:focus{
     outline: none;
 }

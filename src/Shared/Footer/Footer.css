@@ -1,0 +1,33 @@
+.mainFooter{
+    background: #000;
+}
+.footer-logo img{
+    width:250px;
+}
+.footerSection{
+    display: flex;
+    justify-content:space-between;
+    padding-top:50px;
+}
+.footer-item{
+    display: flex;
+    gap: 100px;
+}
+.footer-item ul li a{
+    color: #fff;
+}
+.footerCopy{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 0;
+}
+.copyright p{
+    color: gray;
+}
+.terms ul{
+    display: flex;
+    gap: 20px;
+}
+.terms ul li a{
+    color: #fff;
+}

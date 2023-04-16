@@ -1,0 +1,42 @@
+.loginBanner {
+   background-image: url("../../../images/loginBanner.png");
+   width: 100%;
+   height: 700px;
+}
+
+.login-section{
+    text-align: center;
+}
+
+.login-section img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.formField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.formField input{
+    width: 30%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.formField input[type="submit"]{
+    background: red;
+    color: white;
+    padding: 15px 20px;
+}
+.alreadyAccount{
+    color: red;
+    font-size: 17px;
+    padding-top: 10px;
+}
